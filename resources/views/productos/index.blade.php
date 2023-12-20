@@ -18,26 +18,28 @@
                             <table id="data-table" class = "table table-striped mt-2">
                                 <thead >
                                     <th>ID</th>
-                                    <th>Categoría</th>
-                                    <th>Código</th>
                                     <th>Nombre</th>
+                                    <th>Categoría</th>
+                                    
+                                    
                                     <th>Precio Venta</th>
                                     <th>Stock</th>
                                     <th>Descripción</th>
                                     <th>Estado</th>
+                                    <th>Código</th>
                                     <th> Acciones</th>
                                 </thead>
                                 <tbody>
                                     @foreach($productos as $producto)
                                     <tr>
                                         <td>{{ $producto->id }}</td>
-                                        <td>{{ $producto->categoria->nombre }}</td>
-                                        <td>{{ $producto->codigo }}</td>
                                         <td>{{ $producto->nombre }}</td>
+                                        <td>{{ $producto->categoria->nombre }}</td>
                                         <td>{{ $producto->precio_venta }}</td>
                                         <td>{{ $producto->stock }}</td>
                                         <td>{{ $producto->descripcion }}</td>
                                         <td>{{ $producto->estado }}</td>
+                                        <td>{{ $producto->codigo }}</td>
                                         <td>
                                         @can('editar-producto')
                                             <a class = "btn btn-info" href="{{ route('productos.edit',$producto->id) }}"> Editar </a>
