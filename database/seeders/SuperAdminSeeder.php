@@ -20,13 +20,13 @@ class SuperAdminSeeder extends Seeder
     public function run()
     {
         $usuario = User::create([
-            'name' => 'grupo27sa',
-            'email' => 'grupo27sa@tecnoweb.org',
+            'name' => 'admin',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('12345678'),
         ]);
 
         // Creando rol super administrador
-        $rol = Role::create(['name' => 'root']);
+        $rol = Role::create(['name' => 'administrador']);
 
         // Asignando todos los permisos
         $permisos = Permission::pluck('id', 'id')->all();

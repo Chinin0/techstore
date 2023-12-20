@@ -24,7 +24,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('compras') }}">Compras</a>
                 </li>
-                @if(Auth::check() && (Auth::user()->hasRole('root') || Auth::user()->hasRole('personal')))
+                @if(Auth::check() && (Auth::user()->hasRole('administrador') || Auth::user()->hasRole('personal')))
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('home') }}"><b>Backoffice</b></a>
                     </li>
