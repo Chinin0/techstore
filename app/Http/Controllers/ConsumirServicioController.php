@@ -73,10 +73,10 @@ class ConsumirServicioController extends Controller
             $lnTelefono            = $request->tnTelefono;
             $lcNombreUsuario       = $request->tcRazonSocial;
             $lnCiNit               = $request->tcCiNit;
-            $lcNroPago             = "test-grupo05sa" . rand(100000, 999999);
+            $lcNroPago             = "test-grupo27sa" . rand(100000, 999999);
             $lnMontoClienteEmpresa = $request->tnMonto;
             $lcCorreo              = $request->tcCorreo;
-            $lcUrlCallBack         = "https://mail.tecnoweb.org.bo/inf513/grupo05sa/libreria/public/api/confirmarPago/";
+            $lcUrlCallBack         = "https://mail.tecnoweb.org.bo/inf513/grupo27sa/libreria/public/api/confirmarPago/";
             $lcUrlReturn           = "http://localhost:8000/";
 
 
