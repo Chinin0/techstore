@@ -3,8 +3,8 @@
     Admin Login
 @endsection
 @section('content')
-    <div class="card card-primary">
-        <div class="card-header"><h4>Admin Login</h4></div>
+    <div class="card card-primary" >
+        <div class="card-header"><h4>Login</h4></div>
 
         <div class="card-body">
             <form method="POST" action="{{ route('login') }}">
@@ -31,13 +31,13 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="d-block">
+                    {{-- <div class="d-block">
                         <label for="password" class="control-label">Password</label>
                         <div class="float-right">
                             <a href="{{ route('password.request') }}" class="text-small">
                                 Forgot Password?
                             </a>
-                        </div>
+                        </div> --}}
                     </div>
                     <input aria-describedby="passwordHelpBlock" id="password" type="password"
                            value="{{ (Cookie::get('password') !== null) ? Cookie::get('password') : null }}"
@@ -50,11 +50,11 @@
                 </div>
 
                 <div class="form-group">
-                    <div class="custom-control custom-checkbox">
+                    {{-- <div class="custom-control custom-checkbox">
                         <input type="checkbox" name="remember" class="custom-control-input" tabindex="3"
                                id="remember"{{ (Cookie::get('remember') !== null) ? 'checked' : '' }}>
                         <label class="custom-control-label" for="remember">Remember Me</label>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <div class="form-group">
@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="text-center mt-4">
-                    <p>No tiene Cuenta? <a href="{{ route('register') }}">Registrar</a></p>
+                    <p>No tienes cuenta? <a href="{{ route('register') }}">Registrar</a></p>
                 </div>
             </form>
         </div>
