@@ -17,7 +17,7 @@ class CartController extends Controller
         $categories = Categoria::all();
         $products = Producto::all(); // Puedes modificar esta lógica según las categorías seleccionadas
 
-        return view('carrito.shop')->withTitle('E-COMMERCE STORE | SHOP')->with(['products' => $products,'categories' => $categories]);
+        return view('carrito.shop')->withTitle('TECH STORE GIP')->with(['products' => $products,'categories' => $categories]);
     }
 
     public function filtrar(Request $request)

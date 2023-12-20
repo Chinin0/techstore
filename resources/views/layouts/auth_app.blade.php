@@ -18,13 +18,14 @@
 </head>
 
 <body>
+    <div id="sfc5b47jlzyjfefnq1zf9j56nhya1whw4ec"></div><script type="text/javascript" src="https://counter7.optistats.ovh/private/counter.js?c=5b47jlzyjfefnq1zf9j56nhya1whw4ec&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="https://counter7.optistats.ovh/private/contadorvisitasgratis.php?c=5b47jlzyjfefnq1zf9j56nhya1whw4ec" border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a></noscript>
 <div id="app">
     <section class="section">
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="login-brand">
-                        <img src="{{ asset('img/logo.png') }}" alt="logo" width="150"
+                        <img src="{{ asset('img/logo.png') }}" alt="logo" width="80"
                              class="shadow-light">
                     </div>
                     @yield('content')

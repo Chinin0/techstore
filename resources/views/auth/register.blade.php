@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="first_name">Full Name:</label><span
+                            <label for="first_name">Nombre:</label><span
                                     class="text-danger">*</span>
                             <input id="firstName" type="text"
                                    class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="password" class="control-label">Password
+                            <label for="password" class="control-label">Contraseña
                                 :</label><span
                                     class="text-danger">*</span>
                             <input id="password" type="password"
@@ -54,7 +54,7 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="password_confirmation"
-                                   class="control-label">Confirm Password:</label><span
+                                   class="control-label">Confirmar:</label><span
                                     class="text-danger">*</span>
                             <input id="password_confirmation" type="password" placeholder="Confirm account password"
                                    class="form-control{{ $errors->has('password_confirmation') ? ' is-invalid': '' }}"
@@ -67,7 +67,7 @@
                     <div class="col-md-12 mt-4">
                         <div class="form-group">
                             <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
-                                Register
+                                Registrar
                             </button>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
         </div>
     </div>
     <div class="mt-5 text-muted text-center">
-        Already have an account ? <a
-                href="{{ route('login') }}">SignIn</a>
+        Ya tienes cuenta ? <a
+                href="{{ route('login') }}">Entrar</a>
     </div>
 @endsection
