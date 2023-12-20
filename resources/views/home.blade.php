@@ -11,7 +11,6 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="row">
-
                             <div class="col-md-4">
                                 <canvas id="ventasPorProductos" width="400" height="400"></canvas>
                             </div>

@@ -26,7 +26,7 @@ class SuperAdminSeeder extends Seeder
         ]);
 
         // Creando rol super administrador
-        $rol = Role::create(['name' => 'root']);
+        $rol = Role::create(['name' => 'administrador']);
 
         // Asignando todos los permisos
         $permisos = Permission::pluck('id', 'id')->all();
