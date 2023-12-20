@@ -1,15 +1,21 @@
 <style>
     .bg-custom {
-        background-color: #c73838;
+        background-color: #007c00;
     }
+
+    .contador {
+        pointer-events: none;
+    }
+
 </style>
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-custom shadow-sm">
     <div class="container">
+        <div id="sfcuyh48d39a8rrz2axadeahl15mw3ct9eu" class="contador"></div><script type="text/javascript" src="https://counter7.optistats.ovh/private/counter.js?c=uyh48d39a8rrz2axadeahl15mw3ct9eu&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador para pagina web"><img src="https://counter7.optistats.ovh/private/contadorvisitasgratis.php?c=uyh48d39a8rrz2axadeahl15mw3ct9eu" border="0" title="contador para pagina web" alt="contador para pagina web"></a></noscript>
         <div class="navbar-brand">
             <img src="{{ asset('img/logo.png') }}" alt="Logo de la Empresa" height="50">
         </div>
         <a class="navbar-brand" href="{{ url('/') }}">
-            E-Commerce Tienda
+            TECH STORE GIP TIENDA
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
             <span class="navbar-toggler-icon"></span>
@@ -69,6 +75,7 @@
                         <a class="nav-link" href="{{ route('register') }}">Register</a>
                     </li>
                 @endauth
+                
             </ul>
         </div>
     </div>

@@ -20,9 +20,9 @@ class SuperAdminSeeder extends Seeder
     public function run()
     {
         $usuario = User::create([
-            'name' => 'grupo27sa',
-            'email' => 'grupo27sa@tecnoweb.org',
-            'password' => bcrypt('12345678'),
+            'name' => 'admin',
+            'email' => 'admin@admin',
+            'password' => bcrypt('0000'),
         ]);
 
         // Creando rol super administrador
