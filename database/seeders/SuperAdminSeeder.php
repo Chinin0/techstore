@@ -20,8 +20,8 @@ class SuperAdminSeeder extends Seeder
     public function run()
     {
         $usuario = User::create([
-            'name' => 'grupo05sa',
-            'email' => 'grupo05sa@tecnoweb.org',
+            'name' => 'grupo27sa',
+            'email' => 'grupo27sa@tecnoweb.org',
             'password' => bcrypt('12345678'),
         ]);
 
