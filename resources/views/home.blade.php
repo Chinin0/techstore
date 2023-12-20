@@ -24,6 +24,13 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <a href="https://www.contadorvisitasgratis.com/geozoom.php?c=uyh48d39a8rrz2axadeahl15mw3ct9eu&base=counter7" target="_blank" class="mb-3 d-block">Contador Tienda</a>
+            <a href="https://www.contadorvisitasgratis.com/geozoom.php?c=5b47jlzyjfefnq1zf9j56nhya1whw4ec&base=counter7" target="_blank" class="d-block">Estadística</a>
+        </div>
+    </div>
+    
 </section>
 
 @endsection
